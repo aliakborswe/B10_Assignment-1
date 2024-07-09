@@ -74,7 +74,7 @@ header button {
 }
 /* Banner section design end  */
 
-/* Why Web Development section start here */
+/* Why Web Development section design start here */
 .why_web_dev{
     width: 1140px;
     margin:40px auto;
@@ -142,9 +142,9 @@ header button {
     font-size: 20px;
     font-weight: 600;
 }
-/* Why Web Development section end */
+/* Why Web Development section design end */
 
-/* My Inspiration section start here */
+/* My Inspiration section design start here */
 .inspiration_section{
     width: 1140px;
     margin: 80px auto;
@@ -176,9 +176,9 @@ header button {
 .inspiration_section .video iframe {
     border-radius: 16px;
 }
-/* My Inspiration section end */
+/* My Inspiration section design end */
 
-/* Target section start here */
+/* Target section start design here */
 .target_section{
     width: 1140px;
     margin: 80px auto;
@@ -262,4 +262,57 @@ header button {
     width: 110px;
     height: 110px;
 }
-/* Target section end */
+/* Target section design end */
+
+/* Support section design start here */
+.support_section{
+    width: 1140px;
+    padding: 64px 48px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:25px;
+    background-image: url("./assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.support_section > h2{
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
+.support_section > p{
+    width: 852px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: white;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.inputs input{
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    border:none;
+    padding-left: 20px;
+}
+.inputs > button {
+    background-color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Support section design end */
