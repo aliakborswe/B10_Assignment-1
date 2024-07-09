@@ -20,7 +20,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 0px;
+    padding: 30px 0px;
 
 }
 header h1{
@@ -33,4 +33,44 @@ header button {
     font-size: 20px;
     font-weight: 400;
     border-radius: 5px;
+    cursor: pointer;
 }
+
+/* Banner section design start here */
+.banner_section{
+    background-image: url("./assets//hero_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px 0;
+}
+.banner_content{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner_content h1{
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 800;
+}
+.banner_content p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 50px;
+    line-height: 25px;
+}
+.banner_content button{
+    background-color: rgb(13, 19, 33);
+    color: white;
+    padding: 8px 16px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Banner section design end here */
