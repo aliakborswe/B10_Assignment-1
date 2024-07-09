@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: "Azeret Mono", monospace;
+    font-family: "Azeret Mono";
     font-optical-sizing: auto;
     width: 100%;
     margin: auto;
@@ -73,4 +73,75 @@ header button {
     border-radius: 5px;
     cursor: pointer;
 }
-/* Banner section design end here */
+/* Banner section design end  */
+
+/* Why Web Development section start here */
+.why_web_dev{
+    border: 1px solid red;
+    width: 1140px;
+    margin:40px auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px ;
+}
+.why_dev_content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.why_dev_content h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+.why_dev_content>p{
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.coding{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+.coding_middle{
+    display: flex;
+        flex-direction: row;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 48px;
+        border-radius: 16px;
+        background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+.coding_content{
+    width: 477px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.coding_content h3{
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.coding_content p{font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;}
+.coding_content button{
+    width: 134px;
+    padding: 8px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Why Web Development section end */
