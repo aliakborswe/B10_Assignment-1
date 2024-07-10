@@ -78,19 +78,11 @@ header button {
 /* Why Web Development section design start here */
 .why_dev_section{
     width: 98%;
+    margin: 0 auto;
 }
-.why_web_dev{
-    /* width: 98%; */
-    margin: 150px;
-    border-radius: 16px;
-    background: rgba(13, 19, 33, 0.212);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 80px ;
-}
+
 .why_dev_content{
-    margin: 15px;
+    /* margin: 10px; */
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.212);
     align-items: center;
